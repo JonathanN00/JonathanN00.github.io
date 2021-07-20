@@ -149,3 +149,70 @@ div.content {
 	clear:both;
 	display: table;
 }
+
+.box{
+	display: table-cell;
+}
+
+.box img{
+	    float: left;
+}
+.intro {
+	width: 90%;
+	border: 4px hidden;
+	padding: 12px;
+	overflow: hidden;
+}
+
+.intro img {
+	width: 50%;
+	margin-right: 15px;
+	float: left;
+}
+
+.intro h3,
+.intro p{
+	margin-left: 15px;
+	display: block;
+	margin: 2px 0 0 0;
+}
+
+.row::after {
+	content: "";
+	clear:both;
+	display: table;
+}
+
+.som,
+.som > .sompictures {
+	padding: 8px;
+}
+
+.sompictures {
+	float: left;
+	width: 33.33%;
+}
+
+.som:after {
+	content: "";
+	clear:both;
+	display: table;
+}
+
+.studentpictures {
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+@media screen and (max-width:900px) {
+	.sompictures {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.sompictures {
+		width: 100%;
+	}
+}
