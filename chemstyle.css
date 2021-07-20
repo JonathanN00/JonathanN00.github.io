@@ -14,7 +14,19 @@ ul.sidenav {
   position: fixed;
   height: 100%;
   overflow: auto;
+	z-index: 1;
 }
+
+ul.sidenav img {
+	width: 100%;
+	float: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	overflow: hidden;
+	z-index: 0;
+	  background-color: #555;
+}
+
 
 ul.sidenav li a {
   display: block;
