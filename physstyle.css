@@ -198,17 +198,17 @@ div.content {
 	display: table;
 }
 
-.som,
-.som > .sompictures {
+.psom,
+.psom > .psompictures {
 	padding: 8px;
 }
 
-.sompictures {
+.psompictures {
 	float: left;
-	width: 33.33%;
+	width: 50%;
 }
 
-.som:after {
+.psom:after {
 	content: "";
 	clear:both;
 	display: table;
