@@ -73,8 +73,8 @@ div.content {
   }
 }
 
-.hero-image-chem{
-  background-image: url(images/chemhero.jpg);
+.hero-image-phys{
+  background-image: url(images/physhero.jpg);
   height: 340px;
   background-color: grey;
   background-position: center;
