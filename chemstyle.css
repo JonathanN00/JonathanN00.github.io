@@ -5,6 +5,28 @@
 
 body {margin: 0;}
 
+.list {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	padding-left: 50px;
+	font-size: 18px;
+}
+
+.listH {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	padding-right: 50px;
+}
+
+.list2 {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	padding-right: 25px;
+}
+
 ul.sidenav {
   list-style-type: none;
   margin: 0;
@@ -252,4 +274,38 @@ div.content {
 	.sompictures {
 		width: 100%;
 	}
+}
+
+
+.chemmenu {
+  background: none!important;
+  border: none;
+	font-size: 40px;
+  text-decoration: underline;
+  cursor: pointer;
+	width: 100%;
+	text-align: left;
+}
+.active, .chemmenu:hover {
+  background-color: #ccc;
+}
+
+.chemmenu:after {
+  content: '\2B9F';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2B9D";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height;
 }

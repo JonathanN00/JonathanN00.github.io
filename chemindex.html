@@ -81,10 +81,71 @@
       <div id="Info" class="tabcontent">
         <div class="container">
           <br>
-          <h2>These are the handouts we will be using throughout the course</h2>
-          <p><strong>Note:</strong> Check this page before class and add the necessary materials to your Chemistry Binder</p>
-
+          <p style="font-size:18px">During these troubling times, distance learning has become our reality for now. Being unable to meet each student in the classroom means that there are various factors that one cannot account for in the lives of students that will affect the bond between teacher, student and guardians. While we are all safer from the virus at home, I understand that distance learning may not be the optimal conditions for learning for many students. It is for this reason that I promise to communicate with both students and guardians as much as possible to ensure the success of each student. In return, I ask the same amount of effort from both students and parents. Although students have been given the responsibility of self-management, with grace and understanding, we will all get through this school year together. Thank you for dedication of your child's education.</p>
           <br>
+
+          <ul class="listH">
+            <h2>MATERIALS</h2>
+            <h2>COURSE POLICIES</h2>
+            <h2>ONLINE PROCEDURES</h2>
+          </ul>
+          <ul class="list">
+            <li class="col1">Internet Connection</li>
+            <li class="col1">Computer or Phone</li>
+            <li class="col1">Webcam</li>
+            <li class="col1">Online Notes</li>
+            <li class="col1">Pen or Pencil</li>
+            <li class="col1">Binder for Notes</li>
+
+            <li class="col2">Arrive to class on time</li>
+            <li class="col2">Come to class ready to learn and with an open mind</li>
+            <li class="col2">Respect the speaker, whether it is myself or a classmate</li>
+            <li class="col2">Trust yourself to make mistakes</li>
+            <li class="col2">If things don't make sense, ask or seek help</li>
+
+            <li class="col3">Attend your scheduled classes</li>
+            <li class="col3">Cameras are on</li>
+            <li class="col3">Use your full name</li>
+            <li class="col3">Mute on entry</li>
+            <li class="col3">Use the chat feature responsibly</li>
+          </ul>
+          <br>
+          <button class="chemmenu">MESSAGE FOR PARENTS/GUARDIANS </button>
+          <div class="panel">
+            <p>School today is going to be very different from how it was in the past, therefore it is important that you also keep track of what your child is doing in class to help keep them focused.</p>
+          </div>
+          <br>
+          <button class="chemmenu">MESSAGE FOR STUDENTS</button>
+          <div class="panel">
+            <p>No one expects you to understand material you have never seen before on your first try. We are going to learn together, make mistakes together, and grow together. What I expect from everyone is dedication. If you need extra help, you can rewatch the lecture videos, create study groups with your peers or attend office hours. Remember that I am here to help you and will do everything that I can to provide plenty of opportunities to check for understanding and correct any misconceptions.</p>
+          </div>
+          <br>
+          <h1 style="text-align: center;">GRADING</h1>
+          Image goes here
+          <p>Note: Assignments, such as quizzes/labs/exams, will have more weight and be worth more than one assignment</p>
+          <br>
+          <button class="chemmenu">STUDENT RESPONSIBILITY</button>
+          <div class="panel">
+            <p>You must have your homework ready to be turned in when you arrive to class. Do not think you may spend 15 minutes or even 15 seconds looking for where you have put it, finishing one question, stapling pages together or even writing your name on it. Work is due when you arrive in the room. The same concept applies to bringing the materials, calculators and tools that are necessary for you to do your job, the job of being a student. Remember that while you are in my course, my objective is to prepare you for the real world and the consequences you will face will be of the same level as those in the real world. If you come without your tools, you can’t work and hence will not be paid that day. You will not receive credit for the work assigned or collected that day </p>
+          </div>
+          <br>
+          <button class="chemmenu">CHEATING</button>
+          <div class="panel">
+            <p>Cheating of any type will not be tolerated. If you are caught or suspected of cheating on a homework, lab or test you will be subjected to the schools cheating policy to the fullest extent. The burden of proof does not lie with the instructor</p>
+          </div>
+          <br>
+          <button class="chemmenu">EXTRA CREDIT</button>
+          <div class="panel">
+            <p>There is no extra credit given. It is the student’s responsibility to correct any assignments.</p>
+          </div>
+          <br>
+          <button class="chemmenu">OFFICE HOURS</button>
+          <div class="panel">
+            <p>Office hours is time meant for students to ask questions, tutor students, or simply talk to parents and students. I encourage everyone to attend office hours. Office hours can be done through zoom, Schoology or email. </p>
+          </div>
+          <br>
+          <h1 style="text-align: center;">PRINTABLE DOCUMENTS</h1>
+
         </div>
       </div>
 
@@ -3412,6 +3473,25 @@ function openCity(evt, cityName) {
 
 }
 document.getElementById("defaultOpen").click();
+
+
+</script>
+
+<script>
+var acc = document.getElementsByClassName("chemmenu");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
 </script>
 
   </body>
