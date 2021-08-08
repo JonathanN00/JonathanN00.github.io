@@ -285,6 +285,7 @@ div.content {
   cursor: pointer;
 	width: 100%;
 	text-align: left;
+
 }
 .active, .chemmenu:hover {
   background-color: #ccc;
@@ -298,9 +299,7 @@ div.content {
   margin-left: 5px;
 }
 
-.active:after {
-  content: "\2B9D";
-}
+
 
 .panel {
   padding: 0 18px;
@@ -308,4 +307,5 @@ div.content {
   max-height: 0;
   overflow: hidden;
   transition: max-height;
+	font-size: 18px;
 }
