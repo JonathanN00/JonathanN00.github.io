@@ -24,7 +24,7 @@ body {margin: 0;}
 	-webkit-column-count: 2;
 	-moz-column-count: 2;
 	column-count: 2;
-	padding-right: 25px;
+	padding-right: 45px;
 }
 
 ul.sidenav {
@@ -287,9 +287,7 @@ div.content {
 	text-align: left;
 
 }
-.active, .chemmenu:hover {
-  background-color: #ccc;
-}
+ 
 
 .chemmenu:after {
   content: '\2B9F';
