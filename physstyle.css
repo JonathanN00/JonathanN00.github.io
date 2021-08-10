@@ -105,6 +105,15 @@ div.content {
   position: relative;
 }
 
+.hero-text-physics {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+}
+
 .row::after {
 	content: "";
 	clear:both;
