@@ -284,33 +284,41 @@ div.content {
 		width: 100%;
 	}
 }
-.physmenu {
-  background: none!important;
-  border: none;
-	font-size: 40px;
-  text-decoration: underline;
-  cursor: pointer;
-	width: 100%;
-	text-align: left;
 
+#Info .physmenu {
+	background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
 }
 
+#Info .active, .physmenu:hover {
+  background-color: #ccc;
+}
 
-.physmenu:after {
-  content: '\2B9F';
+#Info .physmenu:after {
+  content: '\002B';
   color: #777;
   font-weight: bold;
   float: right;
   margin-left: 5px;
 }
 
+#Info .active:after {
+  content: "\2212";
+}
 
-
-.panel {
+#Info .panel {
   padding: 0 18px;
   background-color: white;
   max-height: 0;
   overflow: hidden;
-  transition: max-height;
+  transition: max-height 0.2s ease-out;
 	font-size: 18px;
 }
