@@ -328,3 +328,30 @@ div.content {
   transition: max-height 0.2s ease-out;
 	font-size: 18px;
 }
+
+.sublist {
+	box-sizing: border-box;
+}
+
+.doccolumns{
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.sublist::after {
+	content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  .doccolumns {
+    width: 100%;
+  }
+}
