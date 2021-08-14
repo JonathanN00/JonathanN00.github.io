@@ -64,12 +64,12 @@ ul.sidenav li a {
 }
 
 ul.sidenav li a.active {
-  background-color: #4CAF50;
+  background-color: #DE5241;
   color: white;
 }
 
 ul.sidenav li a:hover:not(.active) {
-  background-color: #555;
+  background-color: #AB3F32;
   color: white;
 }
 
@@ -144,7 +144,7 @@ div.content {
 }
 
 .centernav button.active{
-	background-color: #ccc;
+	background-color: #DE5241;
 
 }
 .centernav a {
