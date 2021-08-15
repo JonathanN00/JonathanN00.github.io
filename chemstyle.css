@@ -63,12 +63,12 @@ ul.sidenav li a {
 }
 
 ul.sidenav li a.active {
-  background-color: #2E4660;
+  background-color: #F79300;
   color: white;
 }
 
 ul.sidenav li a:hover:not(.active) {
-  background-color: #15202C;
+  background-color: #C37400;
   color: white;
 }
 
@@ -101,12 +101,12 @@ div.content {
 }
 
 .hero-image-chem{
-  background-image: url(images/chemhero.jpg);
+  background-image: url(images/images/chemhero.jpg);
   height: 340px;
   background-color: grey;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   position: relative;
 }
 
@@ -117,6 +117,7 @@ div.content {
 	left: 50%;
 	transform: translate(-50%,-50%);
 	color: white;
+	text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
 }
 
 .row::after {
@@ -143,7 +144,7 @@ div.content {
 }
 
 .centernav button.active{
-	background-color: #2E4660;
+	background-color: #F79300;
 	color: white;
 
 }

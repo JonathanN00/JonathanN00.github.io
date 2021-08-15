@@ -64,12 +64,12 @@ ul.sidenav li a {
 }
 
 ul.sidenav li a.active {
-  background-color: #DE5241;
+  background-color: #8A2323;
   color: white;
 }
 
 ul.sidenav li a:hover:not(.active) {
-  background-color: #AB3F32;
+  background-color: #3E1010;
   color: white;
 }
 
@@ -102,12 +102,12 @@ div.content {
 }
 
 .hero-image-phys{
-  background-image: url(images/physhero.jpg);
+  background-image: url(images/images/physicsheader.jpg);
   height: 340px;
   background-color: grey;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   position: relative;
 }
 
@@ -118,6 +118,7 @@ div.content {
 	left: 50%;
 	transform: translate(-50%,-50%);
 	color: white;
+	text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
 }
 
 .row::after {
@@ -144,7 +145,8 @@ div.content {
 }
 
 .centernav button.active{
-	background-color: #DE5241;
+	background-color: #8A2323;
+	color: white;
 
 }
 .centernav a {
