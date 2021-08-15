@@ -90,6 +90,11 @@ div.content {
     float: left;
     padding: 15px;
   }
+	ul.sidenav img{
+		visibility:hidden;
+		width: .1%;
+
+	}
 
   div.content {margin-left: 0;}
 }
