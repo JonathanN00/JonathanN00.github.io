@@ -188,8 +188,8 @@ div.content {
 
 }
 
-@media screen and (max-width: 400px) {
-  .centernav a {
+@media screen and (max-width: 760px) {
+  .tablinks {
     float: none;
     display: block;
     width: 100%;
