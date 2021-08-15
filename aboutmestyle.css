@@ -143,6 +143,7 @@ div.caption {
 	clear:both;
 	display: table;
 }
+
 .box{
 	display: table-cell;
 }
@@ -258,4 +259,12 @@ ul.no-bullets {
 	content: "";
 	clear:both;
 	display: table;
+}
+@media screen and (max-width: 768px) {
+  .intro div.polaroid1,
+	.middle div.polaroid2,
+	.aboutmelist div.polaroid3 {
+    width: 100%;
+
+  }
 }
