@@ -15,50 +15,18 @@
 }
 
 .logo b span{
-  animation: blink linear infinite 2s;
+  animation: blink linear infinite 1s;
 }
 .logo b span:nth-of-type(2){
-  animation: blink linear infinite 3s;
+  animation: blink linear infinite 7s;
 }
 .logo b span:nth-of-type(3){
-  animation: blink linear infinite 4s;
+  animation: blink linear infinite 2s;
 }
 .logo b span:nth-of-type(4){
   animation: blink linear infinite 5s;
 }
-.logo b span:nth-of-type(5){
-  animation: blink linear infinite 6s;
-}
-.logo b span:nth-of-type(6){
-  animation: blink linear infinite 7s;
-}
-.logo b span:nth-of-type(7){
-  animation: blink linear infinite 8s;
-}
-.logo b span:nth-of-type(8){
-  animation: blink linear infinite 8s;
-}
-.logo b span:nth-of-type(9){
-  animation: blink linear infinite 7s;
-}
-.logo b span:nth-of-type(10){
-  animation: blink linear infinite 6s;
-}
-.logo b span:nth-of-type(11){
-  animation: blink linear infinite 5s;
-}
-.logo b span:nth-of-type(12){
-  animation: blink linear infinite 4s;
-}
-.logo b span:nth-of-type(13){
-  animation: blink linear infinite 3s;
-}
-.logo b span:nth-of-type(14){
-  animation: blink linear infinite 2s;
-}
-.logo b span:nth-of-type(15){
-  animation: blink linear infinite 1s;
-}
+
 @keyframes blink {
   78% {
     color: inherit;
