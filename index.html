@@ -3,14 +3,53 @@
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width">
   	<title>Navarrete Science</title>
-  	<link rel="stylesheet" type="text/css" href="style.css">
+  	<link rel="stylesheet" type="text/css" href="sandbox.css">
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
   	<link rel="icon" href="images/icon.png" type="image/png" sizes="32x32">
     <script src="csi.js"></script>
   </head>
   <body>
+    <div data-include="logo.html"></div>
+    <img id="myImg" src="images/yearbook.jpeg" alt="Thank you for a memorable year!" style="width:100%">
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
 
-    <!--<div data-include="snow.html"></div>-->
+    <div class="row">
+			<div class="column">
+				<a href="https://open.spotify.com/playlist/2i6hICHOiNYvysQDL3YRNN?si=d43b81d9e7604b60&pt=2afac1a36632a28ffa9c08fe4ba78082">
+					<img src="images/Nights.png" alt="image1" class="center">
+				</a>
+			</div>
+			<div class="column">
+				<a href="https://open.spotify.com/playlist/4sGnWgBTfAT28S7QoXmOuZ?si=37aef5e963904415&pt=e336e81bfafb5749d45433bf7dbe34db">
+					<img src="images/lat.png" alt="phys" class="center">
+				</a>
+			</div>
+			<div class="column">
+				<a href="Aboutme">
+					<img src="images/me2.jpg" alt="me" class="center">
+				</a>
+			</div>
+      <script>
+      var modal = document.getElementById("myModal");
+      var img = document.getElementById("myImg");
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      var span = document.getElementsByClassName("close")[0];
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+    </script>
+    <!--
+    <div data-include="snow.html"></div>
     <div data-include="logo.html">
 
     </div>
@@ -31,5 +70,6 @@
 					<img src="images/me2.jpg" alt="me" class="center">
 				</a>
 			</div>
+    -->
   </body>
 </html>
